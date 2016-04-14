@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webapplikaatiokehyksen valinta nopeiden prototyyppien kehittämiseen</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      img {
+        height:240px;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Webapplikaatiokehyksen valinta nopeiden prototyyppien kehittämiseen
+
+###Jussi Kaijalainen, Wingmen Oy
+
+<img src="wingmen.png" alt="">
+
+---
+
+class: middle
+
+# Agenda
+
+* Tausta ja motivaatio
+* Prototyypit
+* Webapplikaatiokehykset ja vertailu
+* Ember.js demo
+* Kysymykset
+
+---
+
+class: center, middle
+# If a picture is worth 1000 words, a prototype is worth 1000 meetings.
+###- Tom &amp; David Kelley, Creative Brothers at IDEO
+
+---
+
+background-image: url(wingmen.jpg)
+
+---
+
+
+class: middle
+
+# Prototyyppi
+
+## A prototype is an early sample, model, or release of a product built to test a concept or process or to act as a thing to be replicated or learned from. - Wikipedia
+
+---
+
+class: center,middle
+
+## Miksi nopeat prototyypit?
+
+---
+
+class: center, middle
+# No business plan survives first contact with a customer.
+###- Steve Blank
+
+---
+
+class: middle
+
+# Prototyyppien tasot
+
+---
+
+class: middle
+
+# Fyysinen
+## Työkalut: paperimallit
+<img src="paper_proto.jpeg" alt="">
+
+---
+
+class: middle
+
+# Selattava mockup
+## Työkalut: Applikaatiot (UXpin, InVision...)
+<img src="uxpin.png" alt="">
+
+---
+
+class: middle
+
+# Testattava MVP
+## Työkalut: Webapplikaatiokehykset (Angular, Ember...) ja CSS-kehykset (Bootstrap, Foundation...)
+
+---
+
+class: middle
+
+# Entäpä sitten back-end?
+## Diplomityössä rajattu pois, mutta käytännössä...
+
+---
+
+class: middle
+# Käytettävyyden testaus eri tasoilla
+## Paperi vs. Mockup vs. MVP
+
+---
+
+class:middle
+#Esimerkkiprojekti
+## Kone Oyj laitteidenvalvonnan käyttöliittymä
+
+<img src="kone.png" alt="">
+
+---
+
+class: middle
+
+# Webapplikaatiokehykset &amp; työkalut
+
+---
+
+class: middle
+
+# Suosituimmat kehykset
+
+<img src="frameworks.png" alt="Kehykset">
+
+---
+
+class: middle
+
+# Testissä
+
+## React, Ember ja Angular2
+
+<!--1. Statistiikkaa, valintaperusteet (nopeus &amp; työkalut &amp; valmiit palikat)-->
+<!--3. Miten arvioitiin-->
+
+---
+
+class: middle
+
+# Ominaisuudet
+## Templating, routing, data-binding, API-kirjasto, testit, työkalut
+## Vaikea tehdä eroa
+
+---
+
+class: middle
+
+# Valintakriteereinä
+## Suosio, työkalut, yhteisö, fiilis
+## Convention over configuration vs. config over convention
+
+---
+
+class: middle
+# Kehysten lisätyökalut
+## Kriittisiä prototypoinnin nopeuden kannalta
+
+---
+
+class: middle
+# CLI
+## Projektien luonti, scaffolding, kehityspalvelin, paketointi...
+
+---
+
+class: middle
+# Livereload
+## Projektin tiedostojen seuranta ja päivitys reaaliajassa selaimessa
+
+---
+
+class: middle
+# ES6 tuki
+## ES6 nopeuttaa ja helpottaa JavaScriptin kirjoittamista
+
+linkki: http://es6-features.org/
+
+---
+
+class: middle
+# JSHint \ ESLint \ JSLint
+## Automaattinen virheiden havaitseminen
+
+linkki: http://jshint.com/
+
+---
+
+class: middle
+# SASS
+## CSS<sup>2</sup>: muuttujat, nesting, funktiot yms.
+
+linkki: http://sass-lang.com/
+
+---
+
+class: middle
+# Autoprefixer
+## Lisää automaattisesti CSS-prefixit haluttuun selainversioon saakka käyttäen http://caniuse.com/
+
+Linkki: https://github.com/postcss/autoprefixer
+---
+
+class: middle
+# Selain-lisäosa
+## Helpottaa kehitystä näyttämällä erinäistä lisäinfoa applikaation tilasta
+
+---
+
+# Ember
+## Convetion over configuration
+## Pitkälle viety CLI
+## Aktiivinen yhteisö &amp; ylläpitäjät käyttävät isoissa omissa projekteissaan
+
+---
+
+# Angular2
+## Melko tuore (yhteisö &amp; CLI)
+## CLI alkutekijöissään
+## Selainlisäosa alkutekijöissään
+
+---
+
+# Arvio React
+## Applikaation rakentamiseen ei konventioita (Flux vs. Redux...)
+## Aktiivinen yhteisö
+## REACT <a href="https://github.com/facebook/react/blob/master/PATENTS">Patent clause</a>
+
+---
+
+class: middle
+# Ember demo
+## Livedemo Ember-CLI:llä applikaation rakentamisesta
+
+---
+
+class: middle
+# Prototyyppien rakentamisen tulevaisuus
+## CLI viety pidemmälle
+## WYSIWYG koodaus
+## Isomorfiset applikaatiot
+
+---
+
+class: middle
+# Kiitos ajastanne!
+## Twitter: @wingmenguys
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

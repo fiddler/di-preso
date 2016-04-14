@@ -1,0 +1,40 @@
+- Esittely
+- Prototypointi
+- Prototyyppien tasot
+- Paperi, Mockup, Wysiwyg ja koodi
+- Wysiwyg: Invision & Uxpin
+- Frameworkit ja työkalut
+- Frameworkit tarjoaa työkalupaketteja
+- Työkalujen esittelyt:
+-  
+
+
+Kevään totetutuskerran sisältö tähän mennessä löytyy osoitteesta
+https://iislab.ee.tut.fi/piiri/ohjelmallinen-sis%C3%A4ll%C3%B6nhallinta-2016/wiki/luentop%C3%A4iv%C3%A4kirja<https://iislab.ee.tut.fi/piiri/ohjelmallinen-sisällönhallinta-2016/wiki/luentopäiväkirja<https://iislab.ee.tut.fi/piiri/ohjelmallinen-sis%C3%A4ll%C3%B6nhallinta-2016/wiki/luentop%C3%A4iv%C3%A4kirja>>
+.
+
+Huomaat, että poikkesimme pari tuntia kestäneessä AngularJS-koulutuksessa. Tästä
+huolimatta on ihan ok katsella myös Angularin perusteita – ja sinullahan tosiaan on
+joka tapauksessa käytössä Angular2.
+
+Tosi hienoa että Overleaf osoittautui hyödylliseksi. Olisi itse asiassa hienoa jos 
+ehtisit nopeasti näyttämään miten tuo Overleaf/Git-viritys toimii.
+
+Opiskelijoiden kannalta olisi hyödyllistä nähdä minkälaiset periaatteet mahdollistavat nopean
+prototypoinnin niin että käyttöliittymät ovat riittävän autenttisia palautteen keräämiseen 
+käyttäjiltä. Myös syyt sille, että olette päätyneet tekemään juuri sitä mitä teette – 
+nopeatahtista UX/UI-työtä – kiinnostavat.
+
+Kolmessa vartissa ei paljon ehdi, joten yksi vaihtoehto on keskittyä 
+Angular2/EmberJS/React-demoihin ja niiden vertailuun ja kuorruuttaa noita 
+yleisempiä teemoja johdannoksi, sekaan ja johtopäätöksiksi.
+
+
+* Periaatteet jotka mahdollistavat nopean prototypoinnin?
+
+* Riittävän autenttisia palautteen keräämiseen?
+
+* Miksi duunataan tätä?
+
+* Tulevaisuus Isomorfinen applikaatio?
+
